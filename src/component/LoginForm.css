@@ -1,0 +1,74 @@
+.container{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:url('../assets/aesthetic-computer-4k-c9qdhe02pr84wh3a.jpg');
+        /* background-position: 0px -200px; */
+        background-position: center;
+}
+
+.wrapper{
+        width: 420px;
+        background-color: transparent;
+        /* border: 2px solid rgb(255, 255, 255,.2);
+        box-shadow: 0 0 10px rgb(255, 255, 255,.2);
+        backdrop-filter: blur(100px); */
+        border-radius: 10px;
+        padding: 30px 40px;
+}
+.wrapper h1{
+        font-size: 36px;
+        text-align: center;
+        color: white;
+}
+
+.wrapper .input-box{
+        width: 100%;
+        height: 50px;
+        margin: 30px 0px;
+}
+.input-box input{
+        width: 100%;
+        height: 100%;
+        background:transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255,.2);
+        border-radius: 40px;
+        font-size: 16px;
+        color: white;
+        padding: 20px 45px 20px 20px;
+        box-sizing: border-box;
+}
+
+.input-box input::placeholder{
+        color: white;
+}
+
+.register-wrap p{
+        font-size: 14.5px;
+        margin: 20px 0px 15px;
+        text-align: center;
+        color: white;
+}
+.register-wrap p a{
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+}
+
+.register-wrap p a:hover{
+        text-decoration: underline;
+}
+
+.wrapper button{
+        width: 100%;
+        height: 45px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 900;
+}
